@@ -21,6 +21,8 @@ public class TestCase3 {
                 System.out.println("arrow submit validation PASSED");
             System.out.println(e.getText());
 
+            Driver.quitDriver();
+
         }
     }
 }
